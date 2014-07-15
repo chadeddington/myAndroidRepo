@@ -27,5 +27,14 @@
         android:text="Click to Play"
         android:textSize="36dp"
         android:gravity="center"></Button>
+    
+    <Button
+        android:id="@+id/bTest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click to Test"
+        android:textSize="36dp"
+        android:gravity="center"></Button>
 
 </LinearLayout>

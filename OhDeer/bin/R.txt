@@ -232,8 +232,15 @@ int drawable abc_textfield_searchview_holo_dark 0x7f020053
 int drawable abc_textfield_searchview_holo_light 0x7f020054
 int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
-int drawable ic_launcher 0x7f020057
-int drawable ohdeer 0x7f020058
+int drawable bush 0x7f020057
+int drawable flowers 0x7f020058
+int drawable grass 0x7f020059
+int drawable ic_launcher 0x7f02005a
+int drawable ohdeer 0x7f02005b
+int drawable treebl 0x7f02005c
+int drawable treebr 0x7f02005d
+int drawable treetl 0x7f02005e
+int drawable treetr 0x7f02005f
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b
@@ -248,6 +255,7 @@ int id action_mode_close_button 0x7f050024
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id bStart 0x7f05003c
+int id bTest 0x7f05003d
 int id beginning 0x7f050011
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d

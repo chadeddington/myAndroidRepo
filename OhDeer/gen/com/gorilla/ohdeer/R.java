@@ -1068,8 +1068,15 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int ohdeer=0x7f020058;
+        public static final int bush=0x7f020057;
+        public static final int flowers=0x7f020058;
+        public static final int grass=0x7f020059;
+        public static final int ic_launcher=0x7f02005a;
+        public static final int ohdeer=0x7f02005b;
+        public static final int treebl=0x7f02005c;
+        public static final int treebr=0x7f02005d;
+        public static final int treetl=0x7f02005e;
+        public static final int treetr=0x7f02005f;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1086,6 +1093,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int bStart=0x7f05003c;
+        public static final int bTest=0x7f05003d;
         public static final int beginning=0x7f050011;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;

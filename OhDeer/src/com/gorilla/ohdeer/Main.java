@@ -25,5 +25,17 @@ public class Main extends Activity {
 
 			}
 		});
+		
+	// Second Button
+			Button testButton = (Button) findViewById(R.id.bTest);
+			testButton.setOnClickListener(new View.OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					startActivity(new Intent("com.gorilla.ohdeer.TEST"));
+
+				}
+			});
 	}
 }
