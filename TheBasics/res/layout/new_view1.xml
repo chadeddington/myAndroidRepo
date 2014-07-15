@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|left"
+            android:hint="Enter text here"
+            android:textColorLink="#000000" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RadioGroup
+            android:id="@+id/rgStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Style"
+                android:textColor="#00ff00"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Normal"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/rbItalic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Italic"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/rbBold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Bold"
+                android:textColor="#ffffff" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgGravity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Gravity"
+                android:textColor="#00ff00"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbLeft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Left"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/rbCenter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Center"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/rbRight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Right"
+                android:textColor="#ffffff" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tvChange"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Text"
+            android:textColor="#00ff00"
+            android:textSize="24sp" />
+
+         <Button
+            android:id="@+id/bGenerate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate"
+            android:textSize="24sp" />
+
+ 
+    </LinearLayout>
+
+</LinearLayout>
