@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/chad/Development/HealthCenterDirectoryAndroid/app/build/intermediates/pre-dexed/debug/ActiveAndroid-80bb5b43019fc3af09f87961f58035720a6c1b73.jar"
+        jar="/Users/chad/Development/HealthCenterDirectoryAndroid/app/libs/ActiveAndroid.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1d5913d532cf901e0e2f6a1c1959cf3d122f3a51"/>
+    <item
+        dex="/Users/chad/Development/HealthCenterDirectoryAndroid/app/build/intermediates/pre-dexed/debug/firebase-client-android-1.1.1-a96fa5469f59d60db7e7ca9aa1de33d49d85530d.jar"
+        jar="/Users/chad/Development/HealthCenterDirectoryAndroid/app/libs/firebase-client-android-1.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="083aee62faa9c7db01c433036e56cdaced3a51ea"/>
+
+</pre-dex-items>
